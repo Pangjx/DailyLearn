@@ -69,7 +69,7 @@ public class SimpleGuilb implements ActionListener {
 
 	class ColorListener implements ActionListener {
 		public void actionPerformed(ActionEvent event) {
-			frame.repaint();
+//			frame.repaint();
 		}
 	}
 
