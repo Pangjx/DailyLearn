@@ -16,6 +16,13 @@ public class Circle {
 		super();
 		this.radius = radius;
 	}
+	public Circle(double radius2) {
+		// TODO Auto-generated constructor stub
+	}
+	public int compareTo(Object o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
     
     
 }
