@@ -30,8 +30,7 @@ public class QuizCardBuilder {
 	    qScorller.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 	    qScorller.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-	    
-	    
+
 	    answer = new JTextArea(6,20);
 	    answer.setLineWrap(true);
 	    answer.setWrapStyleWord(true);
