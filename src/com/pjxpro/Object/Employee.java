@@ -1,5 +1,11 @@
 package com.pjxpro.Object;
-
+/*
+ * 类名只能用public, abstract & final 修饰
+ * 修饰符public>protected>private 
+ * 子类重写父类的方法修饰符只能变大，不能变小。
+ * 构造构造方法用 public, protected & private修饰
+ * this或者super调用静态方法时 注意实例对象是否进入了内存
+ */
 public class Employee {
 	private String name;
 	private int age;

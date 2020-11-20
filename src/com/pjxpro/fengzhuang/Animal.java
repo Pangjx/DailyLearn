@@ -20,7 +20,7 @@ public class Animal {
 		this.name = name;
 		this.legs = legs;
 	}
-	public Animal() {
+	public  Animal() {
 		this.name = "AAA";
 		this.legs = 4;
 	}
