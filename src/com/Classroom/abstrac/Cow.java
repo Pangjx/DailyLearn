@@ -1,13 +1,13 @@
 package com.Classroom.abstrac;
 
-public class cow extends Animal {
+public class Cow extends Animal {
 
 	
-	public cow() {
+	public Cow() {
 		super();
 		
 	}
-	public cow(String name) {
+	public Cow(String name) {
 		super(name,4);
 		
 	}
