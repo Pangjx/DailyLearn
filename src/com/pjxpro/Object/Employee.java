@@ -5,6 +5,10 @@ package com.pjxpro.Object;
  * 子类重写父类的方法修饰符只能变大，不能变小。
  * 构造构造方法用 public, protected & private修饰
  * this或者super调用静态方法时 注意实例对象是否进入了内存
+ *       类的加载，当使用一个类时，首先要加载这个类的字节码文件到内存，类变量和类方法随着类的加载进入内存
+ *       对象的加载，对象是生成时才出现的
+ *       实例方法是对象调用时才出现的
+ *       一个类中如果有父类，先加载父类的；so Object是第一个进内存的
  */
 public class Employee {
 	private String name;

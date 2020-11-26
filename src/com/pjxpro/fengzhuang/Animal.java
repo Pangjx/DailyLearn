@@ -1,6 +1,6 @@
 package com.pjxpro.fengzhuang;
 
-public class Animal {
+public  class Animal {
       private String name;
       private int legs;
 	public String getName() {
